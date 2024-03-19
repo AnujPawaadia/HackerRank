@@ -16,7 +16,6 @@ class MyCalculator implements AdvancedArithmetic {
         return result;
     }
 }
-
 class Solution{
     public static void main(String []args){
         MyCalculator my_calculator = new MyCalculator();
