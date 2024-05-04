@@ -1,0 +1,6 @@
+a=int(input())
+b=set(map(int,input().split()))
+c=int(input())
+d=set(map(int,input().split()))
+result=len(b.difference(d))
+print(result)
