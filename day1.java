@@ -19,7 +19,7 @@ public class RegexValidator {
             }
         }
 
-        scanner.close();
+        scanner.close(); 
     }
 
     private static boolean isValidRegex(String pattern) {
